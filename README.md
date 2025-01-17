@@ -15,7 +15,7 @@ JavaScript is a versatile language that can run on a wide range of platforms and
 
 ## Dependencies
 
-1. Install `Node.js v18+` and `npm`. 
+1. Install `Node.js v18+` and `npm`.
 2. Run `npm install`.
 
 ## How to use CZG-Keremony client?
@@ -39,7 +39,7 @@ If you want to participate in the actual contribution, please start.
 If you want to start with a different sequencer address, use the `-s` or `--sequncer` flag.
 
 ```
-~$ ./index.js start --sequencer https://kzg-ceremony-sequencer-dev.fly.dev 
+~$ ./index.js start --sequencer https://kzg-ceremony-sequencer-369-dev.fly.dev
 ```
 
 #### Step 2. Select authentication method
@@ -49,8 +49,8 @@ Choose the authentication method you want, Ethereum or GitHub.
 ```
 Authentication
 ? Which method do you prefer for authentication? (Use arrow keys)
-❯ ethereum 
-  github 
+❯ ethereum
+  github
 ```
 
 If you select either `ethereum` or `github`, you will receive a URL.
@@ -75,7 +75,7 @@ If there is another contributor, the client retries every 30 seconds. Wait until
 2023-03-02 20:47:33 [ info ] another contribution in progress - retry after 30 seconds
 ```
 
-When it's your turn, run the ceremony 
+When it's your turn, run the ceremony
 
 ```
 2023-03-02 20:43:18 [ info ] Run Ceremony...
@@ -115,7 +115,7 @@ and also recommended to use network blocked a machine, will calculate the contri
 First, on the network-connected machine, try below to retrieve previous contributions.
 
 ```
-~$ ./index.js try-contribute 
+~$ ./index.js try-contribute
 2023-03-31 14:04:43 [ info ] Start try contribution
 ? Which method do you prefer for authentication? github
 https://oidc.signinwithethereum.org/authorize?xxxxxx
